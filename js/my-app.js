@@ -13,28 +13,28 @@ var myApp = new Framework7({
 	routes: [
 		{
 		path: '/home/',
-    	url: 'index.html',
+    	url: 'home.html',
     	name: 'home',
   		},
         {
 		path: '/pulseras/',
-    	url: 'coffee.html',
-    	name: 'coffee',
+    	url: 'pulseras.html',
+    	name: 'pulseras',
   		},
         {
 		path: '/aritos/',
-    	url: 'form.html',
-    	name: 'form',
-  		}
+    	url: 'aritos.html',
+    	name: 'aritos',
+  		},
 		{
 		path: '/caballeros/',
-    	url: 'form.html',
-    	name: 'form',
-  		}
+    	url: 'caballeros.html',
+    	name: 'caballeros',
+  		},
 		{
 		path: '/sobremi/',
-    	url: 'form.html',
-    	name: 'form',
+    	url: 'sobremi.html',
+    	name: 'sobremi',
   		}
 	]
 });

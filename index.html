@@ -1,17 +1,20 @@
+
 <!doctype html>
 <html>
 <head>
-	
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>App</title>
 <link href="css/framework7.min.css" rel="stylesheet">
-<link href="css/material-icons.css" rel="stylesheet">
+<link href="csss/material-icons.css" rel="stylesheet">
 <link href="css/f7-icons.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
 
-<div id="app">
+
+	<body class="color-theme-blue">
+    
+    <div id="app">
       <!-- Statusbar overlay -->
       <div class="statusbar"></div>
       
@@ -27,36 +30,28 @@
 									<i class="fas fa-coffee"></i>
 								</div>
 								<div class="item-inner">
-								  Sobre Mí
+								  Sobre Mi
 								</div>
 							</a>
 						</li>
 						
 						<li>
-							<a href="/pulseras/" class="item-link item-content panel-close">
+							<a href="/aritos/" class="item-link item-content panel-close">
 								<div class="item-media">
 									<i class="fas fa-coffee"></i>
 								</div>
 								<div class="item-inner">
-								  Postres
+								  Aritos
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="/aritos/" class="item-link item-content panel-close">
+							<a href="/caballeros/" class="item-link item-content panel-close">
 								<div class="item-media">
 									<i class="fas fa-wine-glass"></i>
 								</div>
 								<div class="item-inner">
-									Info
-								</div>
-							</a>
-							<a href="/caballeros/" class="item-link item-content panel-close">
-								<div class="item-media">
-									<i class="fas fa-coffee"></i>
-								</div>
-								<div class="item-inner">
-								  Postres
+									Caballeros
 								</div>
 							</a>
 						</li>
@@ -79,16 +74,72 @@
                 </div>
                 <div class="title">Menu</div>
             </div>
-          </nav>	
-			
-	
-<body>
+          </nav>
 
-    
-             
-      
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+              <div class="block">
+			  
+				<a href="/aritos/">
+			  <article class="menu bg-aritos">
+				 
+					
+			</article>
+				   
+				  <div class="row">
+ 			<article class="col titulo">
+ 				<h4>Aritos para Dama</h4>
+				
+				
+			</article>
+			<article class="col precio">
+ 				$10.00
+			</article>
+					 
+		</div>
+			</a>
+			
+				  
+				  <a href="/caballeros/">
+			    <article class="menu bg-caballeros">
+				   </article>
+			 
+				  <div class="row">
+ 			<article class="col titulo">
+ 				<h4>Pulseras para Hombre</h4>
+				
+				
+			</article>
+			<article class="col precio">
+ 				$6.00
+			</article>
+				 </div>	  
 	
-	<article class="popup popup-confirm">
+				  </a>
+				
+				  
+				 
+			  
+			  
+			  </div>
+             
+              
+			  
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+	
+	 <article class="popup popup-confirm">
 		
 		<div class="view">
 			<div class="page">
@@ -103,19 +154,20 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
 						
 						<div class="row">
-							<a href="/home/" class="link button button-fill btn-verde popup-close">Gracias por ordenar</a>
-							<a href="/coffee/" class="link button btn-gris popup-close">Continúe comprando</a>
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+							<a href="/pasteles/" class="link button btn-gris popup-close">Continue Shopping</a>
 						</div>
 						
 				  	</div>
 					
 			  </div>
 			</div>
-		</div>
+		 </div>
 	</article>
-    
-    <script src="js/framework7.min.js"></script>
-    <script src="js/my-app.js"></script>
-    
+	  
+			 
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
 </body>
 </html>

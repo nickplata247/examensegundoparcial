@@ -1,4 +1,732 @@
 p{
+	margin: 5px 0;	
+}
+
+.menu{
+	position: relative;
+	text-align: center;
+	color: #a2a2a2;
+	padding: 15% 0;
+}
+
+.menu h2{
+	color: #fff;
+	font-size:30px;
+	margin-bottom: 4px;
+}
+
+.bg-coffee{
+	background-image: url(../img/coffee-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-breakfast{
+	background-image: url(../img/breakfast-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-munchies{
+	background-image: url(../img/cupcake-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-sandwiches{
+	background-image: url(../img/food-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-drinks{
+	background-image: url(../img/drinks-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.texto{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	display:grid;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.list-menu img{
+	width: 100px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-coffee h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #e4ceac;
+	margin-bottom:0;
+}
+
+.hero-coffee p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #e4ceac;
+}
+
+.list-menu{
+	margin-top:0 !important;
+	color: #c7c7c7;
+	font-size: 14px !important;
+}
+
+.list-menu .item-header{
+	color: #b4b4b4 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	margin-bottom: 2px;
+}
+
+.list-menu .item-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+	margin-bottom: 2px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks h2{
+	font-size: 34px !important;
+	color: #fff !important;
+	font-weight:600 !important;
+}
+
+.hero-drinks p{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight:300 !important;
+}
+
+.overlay-drinks{
+	background-color: rgba(198, 180, 150,0.95);
+}
+
+.card-drinks{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+
+.card-header{
+	color: #5c5c5e !important;
+	font-size: 18px !important;
+	margin:0 !important;
+}
+
+.card-content{
+	text-align: center;
+}
+
+.card-content img{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.card-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+}
+p{
+	margin: 5px 0;	
+}
+
+.menu{
+	position: relative;
+	text-align: center;
+	color: #a2a2a2;
+	padding: 15% 0;
+}
+
+.menu h2{
+	color: #fff;
+	font-size:30px;
+	margin-bottom: 4px;
+}
+
+.bg-coffee{
+	background-image: url(../img/coffee-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-breakfast{
+	background-image: url(../img/breakfast-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-munchies{
+	background-image: url(../img/cupcake-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-sandwiches{
+	background-image: url(../img/food-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-drinks{
+	background-image: url(../img/drinks-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.texto{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	display:grid;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.list-menu img{
+	width: 100px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-coffee h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #e4ceac;
+	margin-bottom:0;
+}
+
+.hero-coffee p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #e4ceac;
+}
+
+.list-menu{
+	margin-top:0 !important;
+	color: #c7c7c7;
+	font-size: 14px !important;
+}
+
+.list-menu .item-header{
+	color: #b4b4b4 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	margin-bottom: 2px;
+}
+
+.list-menu .item-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+	margin-bottom: 2px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks h2{
+	font-size: 34px !important;
+	color: #fff !important;
+	font-weight:600 !important;
+}
+
+.hero-drinks p{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight:300 !important;
+}
+
+.overlay-drinks{
+	background-color: rgba(198, 180, 150,0.95);
+}
+
+.card-drinks{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+
+.card-header{
+	color: #5c5c5e !important;
+	font-size: 18px !important;
+	margin:0 !important;
+}
+
+.card-content{
+	text-align: center;
+}
+
+.card-content img{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.card-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+}
+p{
+	margin: 5px 0;	
+}
+
+.menu{
+	position: relative;
+	text-align: center;
+	color: #a2a2a2;
+	padding: 15% 0;
+}
+
+.menu h2{
+	color: #fff;
+	font-size:30px;
+	margin-bottom: 4px;
+}
+
+.bg-coffee{
+	background-image: url(../img/coffee-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-breakfast{
+	background-image: url(../img/breakfast-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-munchies{
+	background-image: url(../img/cupcake-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-sandwiches{
+	background-image: url(../img/food-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-drinks{
+	background-image: url(../img/drinks-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.texto{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	display:grid;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.list-menu img{
+	width: 100px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-coffee h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #e4ceac;
+	margin-bottom:0;
+}
+
+.hero-coffee p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #e4ceac;
+}
+
+.list-menu{
+	margin-top:0 !important;
+	color: #c7c7c7;
+	font-size: 14px !important;
+}
+
+.list-menu .item-header{
+	color: #b4b4b4 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	margin-bottom: 2px;
+}
+
+.list-menu .item-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+	margin-bottom: 2px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks h2{
+	font-size: 34px !important;
+	color: #fff !important;
+	font-weight:600 !important;
+}
+
+.hero-drinks p{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight:300 !important;
+}
+
+.overlay-drinks{
+	background-color: rgba(198, 180, 150,0.95);
+}
+
+.card-drinks{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+
+.card-header{
+	color: #5c5c5e !important;
+	font-size: 18px !important;
+	margin:0 !important;
+}
+
+.card-content{
+	text-align: center;
+}
+
+.card-content img{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.card-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+}
+p{
+	margin: 5px 0;	
+}
+
+.menu{
+	position: relative;
+	text-align: center;
+	color: #a2a2a2;
+	padding: 15% 0;
+}
+
+.menu h2{
+	color: #fff;
+	font-size:30px;
+	margin-bottom: 4px;
+}
+
+.bg-coffee{
+	background-image: url(../img/coffee-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-breakfast{
+	background-image: url(../img/breakfast-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-munchies{
+	background-image: url(../img/cupcake-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-sandwiches{
+	background-image: url(../img/food-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-drinks{
+	background-image: url(../img/drinks-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.texto{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	display:grid;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.list-menu img{
+	width: 100px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-coffee h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #e4ceac;
+	margin-bottom:0;
+}
+
+.hero-coffee p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #e4ceac;
+}
+
+.list-menu{
+	margin-top:0 !important;
+	color: #c7c7c7;
+	font-size: 14px !important;
+}
+
+.list-menu .item-header{
+	color: #b4b4b4 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	margin-bottom: 2px;
+}
+
+.list-menu .item-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+	margin-bottom: 2px;
+}
+
+.hero-coffee{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks{
+	background-image: url(../img/espresso-bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20% 0;
+	text-align:center;
+	position:relative;
+}
+
+.hero-drinks h2{
+	font-size: 34px !important;
+	color: #fff !important;
+	font-weight:600 !important;
+}
+
+.hero-drinks p{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight:300 !important;
+}
+
+.overlay-drinks{
+	background-color: rgba(198, 180, 150,0.95);
+}
+
+.card-drinks{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+
+.card-header{
+	color: #5c5c5e !important;
+	font-size: 18px !important;
+	margin:0 !important;
+}
+
+.card-content{
+	text-align: center;
+}
+
+.card-content img{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.card-footer{
+	color: #1aa575 !important;
+	font-weight: 400 !important;
+}
+.precio
+{
+	font-weight: 800;
+	color:#008CFC;
+	
+}.precio
+{
+	font-weight: 800;
+	color:#008CFC;
+	
+}.precio
+{
+	font-weight: 800;
+	color:#008CFC;
+	
+}
+p{
     margin: 5px 0;
 }
 .menu{
